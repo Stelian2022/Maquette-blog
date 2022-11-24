@@ -48,4 +48,9 @@ body{
 }
 .heading{
     background-color: white;
+    width: 100%;
+}
+#posts .popular img{
+    width: 2.5rem;
+
 }
