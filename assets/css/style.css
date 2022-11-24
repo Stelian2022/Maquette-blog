@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "raleway";
+    src: url(../font/Raleway-Medium.ttf);
+}
+*font{
+    font-family: "raleway" sans-serif;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(225, 220, 220);
+}
+#myBlog{
+    height: 15vh;
+    font-family: sans-serif;
+}
+
+#myBlog h1{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+#myBlog h2{
+    text-align: center;
+    font-size: .6rem;
+}
+.unknown{
+    background-color: black;
+    color: white;
+}
+#header{
+    padding: 1rem;
+    
+    width: 100%;
+    
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    
+    height: 55vh;
+    background-color: white;
+    
+}
+#header img{
+    width: 100%;
+    
+}
+.heading{
+    background-color: white;
+}
