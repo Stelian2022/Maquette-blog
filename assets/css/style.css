@@ -16,9 +16,6 @@ body {
   height: 15vh;
   font-family: sans-serif;
 }
-.myName{
-  /* display: inline-block; */
-}
 
 #myBlog h1 {
   text-align: center;
@@ -33,10 +30,10 @@ body {
 }
 .unknown {
   background-color: black;
+
   color: white;
   font-size: 0.7rem;
   font-weight: lighter;
-  
 }
 
 /* body section */
@@ -47,7 +44,6 @@ body {
     background-size: cover; */
   /* background-repeat: no-repeat;
     background-size: cover; */
-
 
   height: 55vh;
   background-color: white;
@@ -165,10 +161,10 @@ body {
 .tagWords {
   background-color: rgb(233, 230, 230);
 }
-.tagWords1{
-    font-size: 1.3rem;
-    background-color: black;
-    color: white;
+.tagWords1 {
+  font-size: 1.3rem;
+  background-color: black;
+  color: white;
 }
 /* footer section */
 #prev input {
@@ -178,9 +174,9 @@ body {
   width: 7rem;
   font-size: 1.2rem;
 }
-#prev{
-    background-color: grey;
-    height: 20vh;
+#prev {
+  background-color: grey;
+  height: 20vh;
 }
 
 #prev p {
@@ -188,155 +184,125 @@ body {
   color: white;
 }
 
-
 /* tablette screen 768 */
-@media screen and (min-width: 576px)
-{
-   
+@media screen and (min-width: 576px) {
   /* header section   */
 
-#header img{
+  #header img {
     padding: 1rem;
     width: 135px;
     border-radius: 20%;
     height: 100px;
+  }
 
-}
-    
-.myName h2{
+  .myName h2 {
     display: none;
-
-} 
-#header{
+  }
+  #header {
     display: flex;
     height: 16vh;
-
-}
-.myName p{
+  }
+  .myName p {
     padding-top: 1rem;
     font-size: 1rem;
-   
+  }
 
-} 
+  /* read more button */
 
-/* read more button */
-
-.heading input {
+  .heading input {
     width: 20%;
     height: 3rem;
     font-size: medium;
     border-color: rgb(219, 217, 217);
     font-weight: bold;
   }
-  .heading h4{
+  .heading h4 {
     text-align: right;
     padding-right: 1rem;
   }
-  .tagWords1{
+  .tagWords1 {
     font-size: 1.3rem;
     background-color: black;
     color: white;
+  }
 }
-
-}
-
 
 /* desktop format 768*/
-@media screen and (min-width: 768px)
-{
-
-    /* section my name */
-.myName h2{
-  display: contents;
-  margin-left: 1rem;
+@media screen and (min-width: 768px) {
+  /* section my name */
+  .myName h2 {
+    display: contents;
+    margin-left: 1rem;
     font-size: 0.7rem;
-
-}
-    #header {
-        padding: 0;
-       margin: 0;
-        width: 26%;
-      display: flex;
-      flex-direction: column;
-       /* width: 24%; */
-        height: 40vh;
-        background-color: white;
-        position: absolute;
-        right: 0;
-        top: 22.7%;
-        /* padding-right: 2rem; */
-        margin-right: 2rem; 
-        box-sizing: border-box;
-      }
-      #header img {
-       border-radius: 0%;
-       /* height: 220px;
+  }
+  #header {
+    padding: 0;
+    margin: 0;
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    /* width: 24%; */
+    height: 40vh;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 22.7%;
+    /* padding-right: 2rem; */
+    margin-right: 2rem;
+    box-sizing: border-box;
+  }
+  #header img {
+    border-radius: 0%;
+    /* height: 220px;
        width: 300px; */
-       padding: 0;
-       margin: 0;
-       width: 100%;
-       height: 60%;
-       
-      
-       
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 60%;
+  }
+  .myName {
+    width: 27%;
+    padding-left: 1rem;
+  }
 
-      } 
-      .myName{
-        width: 27%;
-        padding-left: 1rem;
-      
+  .myName p {
+    padding: 0%;
+    font-size: 0.7rem;
+    text-align: justify;
+    width: 300%;
+  }
 
-      }
-      
-      
-      .myName p{
-        padding: 0%;
-        font-size: 0.7rem;
-        text-align: justify;
-        width: 300%;
-       
-
-      }
-
-     /* sections title x2  */
-#title{
+  /* sections title x2  */
+  #title {
     width: 65%;
     padding: 2rem;
-
-
-
-}
-/* section pôsts */
-#posts{
+  }
+  /* section pôsts */
+  #posts {
     width: 26%;
     background-color: rgb(221, 217, 217);
-     position: absolute; 
+    position: absolute;
     right: 2rem;
     top: 65vh;
-    
-    
-}
-#posts h3{
+  }
+  #posts h3 {
     font-size: 1.1rem;
-}
+  }
 
-/* section tags */
-#tag{
+  /* section tags */
+  #tag {
     width: 26%;
     background-color: rgb(221, 217, 217);
     position: absolute;
     right: 2rem;
     top: 112vh;
-    
-}
-.tagWords{
+  }
+  .tagWords {
     font-size: 1rem;
-}
-.tagWords1{
+  }
+  .tagWords1 {
     font-size: 1rem;
     background-color: black;
     color: white;
-}
-
-
+  }
 }
